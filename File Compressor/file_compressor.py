@@ -30,7 +30,7 @@ while True:
         break
 
     if event == "browse_files":
-        files = sg.popup_get_file("Select Files")
+        files = sg.popup_get_file("Select Files",multiple_files=True)
 
         if files:
             window["file"].update(files)
@@ -59,3 +59,4 @@ while True:
 
 
 window.close()
+
