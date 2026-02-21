@@ -17,7 +17,7 @@ layout = [
         sg.Input(size=(40,1), key="folder")
     ],
 
-    [sg.Push(), sg.Button("Compress", size=(15,1)), sg.Push()]
+    [sg.Push(), sg.Button("Compress", size=(15,1)), sg.Push()] # push from the left and push from the right so that compress button will be at centre
 ]
 
 window = sg.Window("File Compressor", layout)
@@ -56,5 +56,6 @@ while True:
         zipCreate(filePaths, folder)
 
         sg.popup("Compression Successful!")
+
 
 window.close()
