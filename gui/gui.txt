@@ -1,0 +1,103 @@
+if event == "Submit":
+    name = values["NAME"]
+    window["OUTPUT"].update(f"Hello, {name}")
+Ab isko ek-ek karke samajhte hain.
+
+🔹 Step 1: if event == "Submit":
+GUI me jab bhi koi button click hota hai, ek event generate hota hai.
+
+Jab tu likhta hai:
+
+sg.Button("Submit")
+Toh button ka text hi uska event name ban jata hai.
+
+Matlab:
+
+👉 Agar user “Submit” button dabayega
+👉 To event variable me "Submit" store hoga
+
+Toh ye line ka matlab:
+
+if event == "Submit":
+👉 "Agar user ne Submit button click kiya hai to niche wala code chalao"
+
+Bas itna simple.
+
+🔹 Step 2: name = values["NAME"]
+Yaha sabse important concept hai — values dictionary
+
+Event loop me hum likhte hain:
+
+event, values = window.read()
+Yaha:
+
+event = kaunsa button click hua
+
+values = ek dictionary jisme saare input box ke data stored hote hain
+
+Example:
+
+Agar user ne input box me likha:
+
+Sivanshu
+Aur input box ka key tha:
+
+sg.Input(key="NAME")
+Toh values dictionary aisi dikhegi:
+
+{
+   "NAME": "Sivanshu"
+}
+Toh jab tu likhta hai:
+
+name = values["NAME"]
+Matlab:
+
+👉 "NAME key wale input box ka data nikal lo"
+
+Aur wo name variable me store ho jata hai.
+
+🔹 Step 3: window["OUTPUT"].update(...)
+Yaha doosra important concept hai — update
+
+Yaad hai humne result ke liye likha tha:
+
+sg.Text("", key="OUTPUT")
+Iska matlab:
+
+👉 Screen pe ek blank text area hai
+👉 Jiska naam (key) hai "OUTPUT"
+
+Ab jab tu likhta hai:
+
+window["OUTPUT"].update("Hello")
+Matlab:
+
+👉 Screen pe jo text area hai jiska key "OUTPUT" hai
+👉 Usme new text daal do
+
+Toh ye line:
+
+window["OUTPUT"].update(f"Hello, {name}")
+Matlab:
+
+👉 Output area me likh do: Hello, Sivanshu
+
+🔥 Full Flow Samjho (Real Scenario)
+User karta hai:
+
+Naam type karta hai → "Sivanshu"
+
+Submit button dabata hai
+
+Event = "Submit"
+
+Code check karta hai → haan Submit hai
+
+values["NAME"] = "Sivanshu"
+
+Output text update hota hai
+
+Screen pe dikhega:
+
+Hello, Sivanshu

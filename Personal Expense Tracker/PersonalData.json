@@ -1,0 +1,40 @@
+{
+    "PersonalData": [
+        {
+            "Title": "lunch",
+            "Amount": 100,
+            "Category": "Food",
+            "Date": "2026-02-19"
+        },
+        {
+            "Title": "Bus Ticket",
+            "Amount": 200,
+            "Category": "Travel",
+            "Date": "2026-02-18"
+        },
+        {
+            "Title": "Mobile Recharge",
+            "Amount": 350,
+            "Category": "Utilities",
+            "Date": "2026-02-15"
+        },
+        {
+            "Title": "Chowmin",
+            "Amount": 70,
+            "Category": "Food",
+            "Date": "2026-02-23"
+        },
+        {
+            "Title": "Strangers Thing",
+            "Amount": 200,
+            "Category": "Movie",
+            "Date": "2026-02-22"
+        },
+        {
+            "Title": "Meal",
+            "Amount": 250,
+            "Category": "Food",
+            "Date": "2026-02-21"
+        }
+    ]
+}
