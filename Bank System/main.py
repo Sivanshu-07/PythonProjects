@@ -160,7 +160,7 @@ while True:
         case 8:
             print("\n")
             save_and_exit()
-            print("Successfully Saved !")
+            print("\nSuccessfully Saved !")
             break
         case _:
             print("Invalid Choice !")
