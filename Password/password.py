@@ -47,6 +47,7 @@ if __name__ == "__main__":
 
 # The upper sentence is used when we want to run specific function and not want to run python code line by line
 # and also if code is written somewhere else then it helps to import and run that particular section of code first
+
 =======
 # password strength checker
 
@@ -73,7 +74,7 @@ def check_password_strength(password):
         return "Medium: Add special characters to make your password stronger."
     
     return "Strong: Your Password is secure!"
-    
+     
 def password_checker():
     """
     Main function to take user input and check password strength.
