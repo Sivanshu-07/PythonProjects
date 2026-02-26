@@ -1,1 +1,0 @@
-Password strengh checker program
