@@ -49,8 +49,8 @@ def report(expenses):
 
 def save_and_exit(expenses):
     data = {"PersonalData": expenses} # file me likhne se pehle hume wapas wahi structure banana padega.
-    with open("PersonalData.json", "w") as file:
-        json.dump(data, file, indent=4) # isme data wo h jo file me jane wala h aur file wo h jo humne shuru me open ki thi aur indent = 4 bss formatting k liy hai 
+    with open("PersonalData.json", "w") as file: # yaha jo naam likhenge file ka(.json lagakr) usme hi data save hoga 
+        json.dump(data, file, indent=4)  # isme data wo h jo file me jane wala h aur file wo h jo iss line ke just upar likha hai indent = 4 bss formatting k liy hai 
 
 while True:
     print("\n1. Add Expense")
