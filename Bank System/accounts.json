@@ -1,0 +1,76 @@
+{
+    "accounts": {
+        "1001": {
+            "name": "Sivanshu Sinha",
+            "account_type": "saving",
+            "balance": 15000,
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 5000
+                },
+                {
+                    "type": "deposit",
+                    "amount": 15000
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 5000
+                }
+            ]
+        },
+        "1002": {
+            "name": "Sonu Roy",
+            "account_type": "current",
+            "balance": 30000,
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 50000
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 20000
+                }
+            ]
+        },
+        "1003": {
+            "name": "Sahil Sah",
+            "account_type": "saving",
+            "balance": 11000,
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 12000
+                },
+                {
+                    "type": "deposit",
+                    "amount": 2000
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 3000
+                }
+            ]
+        },
+        "1004": {
+            "name": "Yash Singh",
+            "account_type": "saving",
+            "balance": 19000,
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 20000
+                },
+                {
+                    "type": "deposit",
+                    "amount": 4000
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 5000
+                }
+            ]
+        }
+    }
+}
